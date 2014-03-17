@@ -4,6 +4,16 @@ namespace CoreInterfaces;
 
 interface IRouter
 {
+    /**
+     * @param callable $patternConstructorDelegate
+     */
     public function run(callable $patternConstructorDelegate);
+
+    /**
+     * @param string $controller
+     * @param string $action
+     *
+     * @return string
+     */
     public function getUrl($controller, $action);
 }
