@@ -2,9 +2,7 @@
 namespace CoreInterfaces;
 
 use ServiceLocator\Exceptions\ServiceLocatorException;
-use ServiceLocator\Utility\AdditionalParamsBehavior;
 use ServiceLocator\AbstractFactory;
-
 
 /**
  * Class ServiceLocator
