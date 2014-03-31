@@ -16,4 +16,9 @@ interface IRouter
      * @return string
      */
     public function getUrl($controller, $action);
+
+    /**
+     * @return array Array with three keys controller, action, params required
+     */
+    public function getRouteParams();
 }
